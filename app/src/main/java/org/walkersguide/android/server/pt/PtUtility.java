@@ -86,7 +86,7 @@ public class PtUtility {
 
 	// vvo
 	germanyProviderList.add(
-		new VvoProvider();
+		new VvoProvider());
 
         // create country, provider_list map
         Map<Country,ArrayList<AbstractNetworkProvider>> staticMap = new LinkedHashMap<Country,ArrayList<AbstractNetworkProvider>>();
